@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+
+    --font1: 'Noto Sans Hebrew', sans-serif;
+}
+
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+/*Corpo do site*/
+html, body {
+    min-height: 100vh;
+    background-color: lightgoldenrodyellow;
+}
+/*Cabeçalho*/
+header {
+    background-color:  rgb(175, 157, 90);
+    color: white;
+    text-align: center;
+}
+/*Cabeçalho, deixa a pimeira letra maior, 10vw = 10% da letra ao redimencionar a janela do navegador ou em dispositivos de tela diferentes*/
+header > h1 {
+    padding-top: 50px;
+    font-size: 50px;
+}
+/*Delimitar cabeçalho*/
+header > p {
+    padding-bottom: 50px;
+}
+/*Links do cabeçalho e do roda pé*/
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+/*Deixa o link com sublinhado ao passar o mouse*/
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+/*Configurações das seções gerais*/
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+/*Seções com texto em branco*/
+section.normal {
+    background-color:  white;
+    color: black;
+}
+/*Seções que tem imagens*/
+section.imagem {
+    background-color: rgba(107, 107, 107, 0.534);
+    color: white;
+    box-shadow:  inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Configuração das secões de texto */
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(68, 67, 67, 0.5);
+    text-shadow: 2px 2px 0,px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/deserto-grande-001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('../imagens/deserto-grande-002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+/*Roda pé*/
+footer {
+    background-color:  black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
