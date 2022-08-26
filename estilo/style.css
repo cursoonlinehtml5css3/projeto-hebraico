@@ -19,7 +19,7 @@ html, body {
 }
 /*Cabeçalho*/
 header {
-    background-color:  rgb(175, 157, 90);
+    background-color:  rgb(175, 141, 90);
     color: white;
     text-align: center;
 }
@@ -90,7 +90,7 @@ section#img02 {
 }
 /*Roda pé*/
 footer {
-    background-color:  black;
+    background-color:  rgb(175, 141, 90);
     color: white;
     text-align: center;
     padding: 10px;
