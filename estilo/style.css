@@ -86,6 +86,11 @@ section#img02 {
     background-size: cover;
     border-radius: 5px;
 }
+
+td {
+    margin: auto;
+    border: 1px solid black;
+}
 /*Roda pé*/
 footer {
     background-color:  rgb(175, 141, 90);
