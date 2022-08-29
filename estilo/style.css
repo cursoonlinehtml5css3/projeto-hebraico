@@ -12,11 +12,12 @@ html, body {
 }
 /*Cabeçalho*/
 header {
-    background-color:  rgb(175, 141, 90);
+    background-color:  rgba(175, 141, 90, 0.527);
     color: white;
     text-align: center;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.600);
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
 /*Cabeçalho, deixa a pimeira letra maior, 10vw = 10% da letra ao redimencionar a janela do navegador ou em dispositivos de tela diferentes*/
 header > h1 {
@@ -76,12 +77,14 @@ section#img01 {
     background-image: url('../imagens/deserto-media-001.jpg');
     background-position: right center;
     background-size: cover;
+    border-radius: 5px;
 }
 
 section#img02 {
     background-image: url('../imagens/deserto-media-002.jpg');
     background-position: right center;
     background-size: cover;
+    border-radius: 5px;
 }
 /*Roda pé*/
 footer {
@@ -90,4 +93,5 @@ footer {
     text-align: center;
     padding: 10px;
     font-family: var(--font2);
+    border-radius: 5px;
 }
